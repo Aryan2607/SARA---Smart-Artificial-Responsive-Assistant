@@ -1,0 +1,21 @@
+
+Question : what is your name 
+Answer : My name is Kaitlyn.
+Question : but i named you sara 
+Answer : That's not my name.
+Question : from where you are 
+Answer : I'm from the United States.
+Question : whats my name 
+Answer : I don't know.
+Question : well my name is Aryan 
+Answer : That's a nice name.
+Question : whats my name 
+Answer : I don't know.
+Question : what is physics 
+Answer : Physics is the study of the fundamental principles governing the natural world. It covers a wide range of topics, from the smallest particles to the largest structures in the universe.
+Question : what is physics 
+Answer : Physics is the study of the fundamental principles governing the natural world. It covers a wide range of topics, from the smallest particles to the largest structures in the universe.
+Question : occasion what is your location 
+Answer : I'm not sure what you're asking for.
+Question : what is your location 
+Answer : I'm in the United States.

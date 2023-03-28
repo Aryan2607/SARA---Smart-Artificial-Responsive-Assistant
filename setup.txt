@@ -1,0 +1,6 @@
+client_id=da182c69aff04b23ae82c8c4848f3213
+client_secret=508ce5fd715849348f5fb7b56b4d37ed
+device_name=AryanAgrawal
+redirect_uri=https://example.com/callback/
+username=31bjsr5l423fhq23jm7aevvznkma
+scope=user-read-private user-read-playback-state user-modify-playback-state
