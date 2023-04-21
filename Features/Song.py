@@ -1,11 +1,14 @@
-# /*******************************************The code below is for normal users to play music from Spotify*********************************************/
-
 
 # /*******************************************The code below is used to play from youtube*********************************************/
-# import pywhatkit
-# def Song(track):
-#     song =(track)
-#     pywhatkit.playonyt(song)
+import pywhatkit
+def Song(track):
+    song =(track)
+    pywhatkit.playonyt(song)
+    return track
+
+# while True:
+#     kk = input("Enter : ")
+#     print(Song(kk))
 
 # /*******************************************The code below is for Premium user only*********************************************/
 

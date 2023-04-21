@@ -15,7 +15,7 @@ def Speak(Text):
     engine.setProperty('voice',voices[2].id)
     engine.setProperty('rate',170)
     print("")
-    print(f"You : {Text}.")
+    print(f"SARA : {Text}.")
     print("")
     engine.say(Text)
     engine.runAndWait()

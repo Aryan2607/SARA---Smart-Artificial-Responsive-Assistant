@@ -25,9 +25,9 @@ def WakeupDetected():
 
     while True:
 
-        queery = Listen().lower()
+        query = Listen().lower()
 
-        if "wake up" in queery:
+        if "wake up" in query:
             os.startfile(r"C:\Users\Aryan Agrawal\Desktop\AI Jarvis\Main.py")
 
         

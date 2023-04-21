@@ -19,3 +19,5 @@ Question : occasion what is your location
 Answer : I'm not sure what you're asking for.
 Question : what is your location 
 Answer : I'm in the United States.
+Question : once again i have same question 
+Answer : I'm in the United States.

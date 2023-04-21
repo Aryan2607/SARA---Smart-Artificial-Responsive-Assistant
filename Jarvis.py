@@ -5,16 +5,17 @@ import pyautogui
 import spotipy as sp
 from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
-from Brain.Song import *
+from Features.Song import Song
 import tkinter as tk
 from Brain.AIBrain import ReplyBrain
 from Brain.Qna import QuestionsAnswer
 from Body.Listen import MicExecution
-print(">> Starting The Jarvis : Wait For Some Seconds.")
+print(">> Starting The SARA : Wait For Some Seconds.")
 from Body.Speak import Speak
 from Features.Clap import Tester
-print(">> Started The Jarvis : Wait For Few Seconds More")
+print(">> Started The SARA : Wait For Few Seconds More")
 from Main import MainTaskExecution
+from Features.Googlesearch import google_search
 
 # class JarvisUI:
 
@@ -72,8 +73,15 @@ def MainExecution():
             Speak(Reply)
 
 
-        # elif "play" in Data or "song" in Data or "music" in Data:
-        #     Reply = Song(Data)
+        elif "song" in Data or "music" in Data:
+            Reply = Song(Data)
+            Speak("Playing your song...")
+            Speak("If you got any Ad than please skip it manually")
+
+        elif "google search" in Data or "search on google" in Data or "get google results" in Data:
+            Reply = google_search(Data)
+            Speak("Just a second sir...")
+            Speak("Showing top 10 results collected from google search")
 
         else:
             Reply = ReplyBrain(Data)

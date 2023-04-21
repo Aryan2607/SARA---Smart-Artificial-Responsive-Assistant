@@ -11,7 +11,7 @@ from Features.Open import OpenExe
 import spotipy as sp
 from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
-from Brain.Song import *
+from Features.Song import Song
 
 def TrainTasks():
 
