@@ -39,3 +39,13 @@ You : hello shera
 SARA : Hello! How are you?
 You : i am fine and what about you 
 SARA : I'm doing well, thank you for asking!
+You : do you know my name 
+SARA : No, I don't know your name.
+You : well my full name is Aryan Agrawal 
+SARA : Nice to meet you, Aryan!
+You : you can call me sir 
+SARA : Yes, sir.
+You : can you tell me the meaning of my my name 
+SARA : The meaning of your name, Aryan, is "noble" or "honorable."
+You : thanks 
+SARA : You're welcome!
