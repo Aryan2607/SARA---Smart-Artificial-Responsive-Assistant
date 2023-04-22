@@ -109,4 +109,4 @@ def main_exe():
     Speak("The email has been sent!")
 
 # call the main_exe function
-main_exe()
+# main_exe()

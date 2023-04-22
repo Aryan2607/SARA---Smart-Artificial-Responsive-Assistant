@@ -2,20 +2,27 @@ from time import sleep
 from turtle import reset
 import webbrowser
 import pyautogui
-import spotipy as sp
-from spotipy.oauth2 import SpotifyOAuth
-import pandas as pd
-from Features.Song import Song
 import tkinter as tk
+import spotipy as sp
+import pandas as pd
+from spotipy.oauth2 import SpotifyOAuth
+
 from Brain.AIBrain import ReplyBrain
 from Brain.Qna import QuestionsAnswer
-from Body.Listen import MicExecution
 print(">> Starting The SARA : Wait For Some Seconds.")
+from Body.Listen import MicExecution
+from Body.Listen import Listen
 from Body.Speak import Speak
-from Features.Clap import Tester
 print(">> Started The SARA : Wait For Few Seconds More")
-from Main import MainTaskExecution
+from Features.Song import Song
+from Features.Stocks import stock_exec
+from Features.Clap import Tester
+from Features.Wakeup import WakeupDetected
 from Features.Googlesearch import google_search
+from Features.mail_feature import main_exe
+
+from Main import MainTaskExecution
+
 
 # class JarvisUI:
 
@@ -83,6 +90,12 @@ def MainExecution():
             Speak("Just a second sir...")
             Speak("Showing top 10 results collected from google search")
 
+        elif "send email" in Data or "send mail" in Data or "a mail" in Data or "an email" in Data:
+            Reply = main_exe()
+
+        elif "predict the stock price" in Data or "predicted stock price" in Data or "future stock prices" in Data or "prediction for the stock" in Data or "stock price" in Data or "predict stock" in Data or "stock price" in Data or "stock prices" in Data:
+            Reply = stock_exec()
+
         else:
             Reply = ReplyBrain(Data)
             Speak(Reply)
@@ -97,3 +110,13 @@ def ClapDetect():
         pass
 
 ClapDetect()
+
+# def Wakeup():
+#     query = WakeupDetected()
+#     if "Wake up" in query:
+#         print("")
+#         MainExecution()
+#     else:
+#         pass
+
+# Wakeup

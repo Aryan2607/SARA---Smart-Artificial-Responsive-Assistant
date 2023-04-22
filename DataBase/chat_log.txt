@@ -49,3 +49,5 @@ You : can you tell me the meaning of my my name
 SARA : The meaning of your name, Aryan, is "noble" or "honorable."
 You : thanks 
 SARA : You're welcome!
+You : can you predict stock 
+SARA : I'm sorry, but I cannot predict stock prices.
